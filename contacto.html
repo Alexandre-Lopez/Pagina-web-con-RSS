@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <link href="Estilos.css" rel="stylesheet" type="text/css" />
+      <title>Mi página web personal</title>
+   </head>
+   <body>
+      <!-- Cabecera adecuada con tu nombre como nombre de la página principal -->
+      <div id="cabecera">
+         <h1>ALEXANDRE LÓPEZ SÁNCHEZ</h1>
+      </div>
+      <!-- Enlaces internos -->
+      <div id="navegacion">
+         <a href="index.html">Inicio</a>
+         <a href="sobremi.html">Sobre mí</a>
+         <a href="intereses.html">Intereses</a>
+         <a href="contacto.html">Contacto</a>
+      </div>
+      <div id="fondo">
+         <div id="contenido">
+            <div id="sobre-mi">
+               <h2>Forma de contacto:</h2>
+               <!-- Citas y enfasis-->
+               <p>En esta página puedes contactar conmigo rellenando el formulario y me pondre en contacto contigo lo más rapido posible</p>
+               <br/>
+            </div>
+            <!-- Formulario con campos -->
+            <div id="contacto">
+               <h2>Contacto</h2>
+               <p>Si quieres enviarme un mensaje, puedes utilizar el siguiente formulario:</p>
+               <form action="#">
+                  <p id="nombres">
+                     <label for="nombre">Nombre:</label>
+                     <input type="text" id="nombre" name="nombre"/>
+                  </p>
+                  <p id="emails">
+                     <label for="email">Email:</label>
+                     <input type="text" id="email" name="email"/>
+                  </p>
+                  <p id="mensajes">
+                     <label for="mensaje">Mensaje:</label>
+                     <textarea id="mensaje" class="input" name="mensaje" rows="3" cols="15"></textarea>
+                  </p>
+                  <p>
+                     <input type="submit" value="Enviar"/>
+                  </p>
+               </form>
+            </div>
+            <br/>
+            <div id="footer">
+               <p>Esta página ha sido creada por el alumno Alexandre López Sánchez 2022@</p>
+            </div>
+            
+         </div>
+      </div>
+   </body>
+</html>
