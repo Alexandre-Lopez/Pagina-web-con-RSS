@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Mi página web personal con RSS</title>
+    <link>https://alexandre-lopez.github.io/Pagina-web-con-RSS/</link>
+    <description>Descripción de mi página web personal</description>
+    <language>es</language>
+    <lastBuildDate>Mon, 19 May 2023 23:30:08 GMT</lastBuildDate>
+    <item>
+      <title>Sobre mí</title>
+      <link>https://alexandre-lopez.github.io/Pagina-web-con-RSS/sobremi.html</link>
+      <description>Soy estudiante de programación WEB y me apasiona todo lo relacionado con la informática. También me encanta viajar y he visitado algunos lugares increíbles como Roma, París, Moscú y Praga.</description>
+      <pubDate>Mon, 19 May 2023 23:30:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Intereses</title>
+      <link>https://alexandre-lopez.github.io/Pagina-web-con-RSS/intereses.html</link>
+      <description>En esta sección encontrarás mis intereses, como libros, películas y música. ¡Descubre mis recomendaciones!</description>
+      <pubDate>Mon, 19 May 2023 23:30:08 GMT</pubDate>
+    </item>
+    <item>
+      <title>Contacto</title>
+      <link>https://alexandre-lopez.github.io/Pagina-web-con-RSS/contacto.html</link>
+      <description>Si quieres contactarme, puedes utilizar el formulario de contacto en esta página. ¡Espero tu mensaje!</description>
+      <pubDate>Mon, 19 May 2023 23:30:08 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
